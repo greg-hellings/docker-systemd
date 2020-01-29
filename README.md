@@ -10,9 +10,8 @@ running it in production!**
 
 ## Supported tags
 
-* `ubuntu-latest`
-* `ubuntu-18.04`, `bionic`
-* `ubuntu-16.04`, `xenial`
+* `latest`
+* `18.04`
 
 ## But why?
 
@@ -34,7 +33,7 @@ should probably use the stock `ubuntu` image instead.
 
 ## Setup
 
-Before you start your first `systemd` container, run the following command to
+Before you start your first `ubuntu-systemd` container, run the following command to
 set up your Docker host. It uses [special privileges](https://docs.docker.com/engine/reference/run/#/runtime-privilege-and-linux-capabilities)
 to create a cgroup hierarchy for `systemd`. We do this in a separate setup
 step so we can run `systemd` in unprivileged containers.
