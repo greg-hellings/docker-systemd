@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:8
 
 ENV container docker
 
